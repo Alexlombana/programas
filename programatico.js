@@ -1,20 +1,15 @@
 /* Programa que dado un numero retorne true si es un numero par o retorne false si es un numero impar y para los multiplos de 5 retorne go*/
 
-function matematica(numero) {
+var numero=8
 if (numero%2==0 && numero % 5!= 0){
     console.log(`True`);
 }
-else if(numero % 5!= 0) {
-    console.log(`false`);
-}
-if ( numero > 0 && numero % 5 == 0 ) {
+else if (numero % 5 == 0 ) {  
     console.log("GO" )
-
+     }
+ else   {
+    console.log(`false`); 
  }
-}
-console.log(matematica(15))
-
 
  
 
- 
