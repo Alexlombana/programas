@@ -12,7 +12,7 @@ if ( numero > 0 && numero % 5 == 0 ) {
 
  }
 }
-console.log(matematica(7))
+console.log(matematica(15))
 
 
  
